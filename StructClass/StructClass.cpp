@@ -1,9 +1,7 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 
 using namespace std;
-
-/*Создать класс Fraction для работы с дробными числами. Число должно быть представлено двумя полями: целая часть – длинное целое со знаком, дробная часть – беззнаковое короткое целое. Реализовать арифметические операции сложения, вычитания, умножения и операции сравнения.*/
 
 class Fraction {
     private:
@@ -102,11 +100,11 @@ int main()
     
     N.read();
     N.display();
-    cout << "Number 1: " << N.toString() << "\n\n";
+    cout << "Number 1: " << N.toString() << "\n";
     
     M.read();
     M.display();
-    cout << "Number 1: " << M.toString() << "\n\n";
+    cout << "Number 2: " << M.toString() << "\n";
     
     A.Sum(N, M);
     A.Sub(N, M);
